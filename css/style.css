@@ -1,0 +1,40 @@
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+.bg-menu {
+  background-color: rgba(52, 58, 64, 0.2);
+  /* max-width: 100px; */
+}
+.AjustePosicao{
+  height: 0;
+}
+
+
+ /* Ajustando a posicao inicial de tudo utilizando uma div em branco com um tamanho fixo
+ Dai a Div só existe quando a tela passa desse tamanho aqui */
+@media (min-width: 560px) {
+ 
+  .AjustePosicao{
+    height: 200px;
+  }
+}
+/* Dando um espacinho entre os links do menu. */
+/* Isso quando o menu tá ajustado do lado, ou seja, quando a tela é um pouco maior*/
+
+@media (min-width: 768px) {
+  .nav-link{
+    margin-bottom: 30px;
+  }
+  
+ 
+}
+
+a.bg-menu:hover, a.bg-menu:focus,
+button.bg-menu:hover,
+button.bg-menu:focus {
+  background-color: #1d2124 !important;
+}
