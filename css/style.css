@@ -1,14 +1,44 @@
+:root{
+	--fontBold:			"Roboto Bold";
+	--fontMedium:		"Roboto Medium";
+	--fontLight:		"Roboto Light";
+    
+    --barraLateral:     #963fe6;
+    --backgroundEscuro: #c154d3;
+	--backgroundClaro:  #e5a1f0;
+    --texto:      		#a9559c;
+    --titulo:  			#c154d3;
+    --rodape:  			#c154d3;
+}
 
-
-body {
-  overflow-x: hidden;
+html, body{
+	width: 100%;
+	height: 100%;
+	
+    padding: 0;
+    margin: 0;
+	
+	overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
 .bg-menu {
-  background-color: rgba(52, 58, 64, 0.2);
+  background-color: var(--barraLateral);
   /* max-width: 100px; */
 }
+
+#home{
+	min-height: 400px;
+}
+
+#home{
+	background-image: url('../img/imagem_topo.png');
+    background-size: 100% 100%;
+}
+
+.nav-link{color:yellow;font-size:1.3em;}
+
 .AjustePosicao{
   height: 0;
 }
