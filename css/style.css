@@ -3,7 +3,7 @@
 	--fontMedium:		"Roboto Medium";
 	--fontLight:		"Roboto Light";
     
-    --barraLateral:     #963fe6;
+    --barraLateral:     #ae04af;
     --backgroundEscuro: #c154d3;
 	--backgroundClaro:  #e5a1f0;
     --texto:      		#a9559c;
@@ -27,21 +27,69 @@ html, body{
   background-color: var(--barraLateral);
   /* max-width: 100px; */
 }
+.textoInicial{
+  font-family:  var(--fontBold);
+  color: #edf0f4;
+  font-size: 19pt;
+
+}
+.textoBaixoBotao{
+  font-family:  var(--fontBold);
+  color: #edf0f4;
+  font-size: 14pt;
+
+}
+.textoMenu{
+  font-family:  var(--fontBold);
+  color:  #edf0f4;
+  font-size: 10pt;
+}
+
+.textoMenu:hover{
+  color:  #edf0f4;
+}
+
+.hoverMenu:hover{
+  color:  #edf0f4;
+}
 
 #main{
 	min-height: 100vh;
 }
 
+.homeClass{
+	min-height: 100vh;
+}
+.redeSocial{
+  width: 100%;
+  /* height: 20%; */
+  margin-bottom: 30px;
+}
+.rede_social_icon{
+  margin: 10px;
+}
+
 #main{
-	  background-image: url('../img/imagem_topo.png');
+	  background-image: url('../img/imagem_topo_2.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.nav-link{color:yellow;font-size:1.3em;}
+.nav-link{
+  color:yellow;
+  /* font-size:1.3em; */
+  margin-right: 0px;
+}
+a.nav-link:hover{
+  background-color: #980a99;
+}
+.nav-link img{
+  height: auto;
+  width: 30px;
+}
 
 .AjustePosicao{
-  height: 0;
+  height: 10vh;
 }
 
 
@@ -50,7 +98,7 @@ html, body{
 @media (min-width: 560px) {
  
   .AjustePosicao{
-    height: 200px;
+    height: 20vh;
   }
 }
 /* Dando um espacinho entre os links do menu. */
