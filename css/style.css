@@ -5,7 +5,7 @@
     
     --barraLateral:     #ae04af;
     --backgroundEscuro: #c154d3;
-	--backgroundClaro:  #e5a1f0;
+	  --backgroundClaro:  #e5a1f0;
     --texto:      		#a9559c;
     --titulo:  			#c154d3;
     --rodape:  			#c154d3;
@@ -107,6 +107,15 @@ a.nav-link:hover{
   font-weight: 400;
 }
 
+.TituloVideos{
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+  font-family:  var(--fontMedium);
+  color: yellow;
+  font-size: 20pt;
+  font-weight: 500;
+}
+
 .TituloCurso{
   /* margin-top: 30px; */
   margin-bottom: 20px;
@@ -148,12 +157,49 @@ a.nav-link:hover{
   margin-bottom: 30px;
 }
 
+.videosBox{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--backgroundEscuro);
+  color:yellow;
+}
+
 .cursos{
   margin-top: 30px;
   margin-bottom: 50px;
   background-image: url('../img/bg_cursos.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.contato{
+  margin-top: 30px;
+  /* margin-bottom: 50px; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-image: url('../img/bg_formulario.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.formulario{
+  background-color: var(--backgroundEscuro);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.text-roxo{
+  color: var(--texto);
+}
+
+.text-roxo:hover{
+  color: white;
+}
+
+.footer{
+  background-color: var(--rodape);
+  height: 50px;
 }
 
 .boxCurso{
@@ -172,6 +218,12 @@ a.nav-link:hover{
   font-size: 20pt;
   margin-bottom: 20px;
   margin-top: 30px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.botaoCurso:hover{
+  color: #980a99;
+
 }
 
 .sobre{
