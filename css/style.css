@@ -47,6 +47,7 @@ hr{
   font-family:  var(--fontBold);
   color:  #edf0f4;
   font-size: 10pt;
+  font-weight: 400;
 }
 
 .textoMenu:hover{
@@ -80,11 +81,18 @@ hr{
 }
 
 .nav-link{
-  color:yellow;
+  color:#ffe500;
   /* font-size:1.3em; */
   margin-right: 0px;
   padding: 9px;
+  font-family:  var(--fontBold);
+  /* font-size: 20pt; */
+  font-weight: 550;
 }
+.interrogacao{
+  font-size: 20pt;
+}
+
 a.nav-link:hover{
   background-color: #980a99;
 }
@@ -111,14 +119,14 @@ a.nav-link:hover{
   /* margin-top: 30px; */
   margin-bottom: 20px;
   font-family:  var(--fontMedium);
-  color: yellow;
+  color: #ffe500;
   font-size: 20pt;
   font-weight: 500;
 }
 
 .TituloCurso{
   /* margin-top: 30px; */
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   font-family:  var(--fontMedium);
   color: var(--texto);
   font-size: 15pt;
@@ -161,7 +169,7 @@ a.nav-link:hover{
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: var(--backgroundEscuro);
-  color:yellow;
+  color:#ffe500;
 }
 
 .cursos{
@@ -203,26 +211,34 @@ a.nav-link:hover{
 }
 
 .boxCurso{
-  background-image: url('../img/box_curso2.png');
+  /* background-image: url('../img/box_curso2.png'); */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 554px;
   width: 266px;
   margin-bottom: 30px;
 }
-
+.Afinacao{
+  background-image: url('../img/curso_afinacao.png');
+}
+.Harmonizacao{
+  background-image: url('../img/curso_harmonizacao.png');
+}
+.Lirico{
+  background-image: url('../img/curso_lirico.png');
+}
 .botaoCurso{
   color:  white;
   font-family:  var(--fontMedium);
   font-weight: 550;
   font-size: 20pt;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   cursor: pointer;
-  transition: color 0.3s ease;
+  transition: color 0.4s ease;
 }
 .botaoCurso:hover{
-  color: #980a99;
+  color: #ffe500;
 
 }
 
