@@ -133,6 +133,36 @@ a.nav-link:hover{
   font-weight: 550;
 }
 
+.TituloPerguntas{
+  /* margin-top: 30px; */
+  margin-bottom: 20px;
+  font-family:  var(--fontMedium);
+  color: var(--texto);
+  font-size: 35pt;
+  font-weight: 400;
+}
+
+.perguntasBox{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*color:#ffe500;*/
+}
+
+.card-header{
+	background-color: #bc2fdf;
+	color: white;
+}
+
+.card-header .btn { background: none;color: white;}
+.card-header .btn:hover { background: none;color: white;}
+.card-header .btn:visited { background: none;color: white;}
+.card-header .btn:active { background: none;color: white;}
+.card-header .btn:link { background: none;color: white;}
+
+.card-body{
+	color: #a9559c;
+}
+
 .textoSessao{
   font-family:  var(--fontMedium);
   color: var(--texto);
